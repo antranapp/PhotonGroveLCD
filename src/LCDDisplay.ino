@@ -15,6 +15,8 @@ void setup() {
 
     lcd.print("hello, world!");
 
+    Time.zone(+2.00);
+
     delay(1000);
 }
 
